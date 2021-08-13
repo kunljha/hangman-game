@@ -55,8 +55,9 @@ class Hangman {
 		} else if (this.status === 'finished') {
 			return 'Great work! You guessed the word correctly.'
 		} else {
-			return `Nice try! But you ran out-of guesses.
-		The word was "${this.word.join('')}"`
+			return `You Loose! The word was "${this.word.join('')}"`
 		}
 	}
 }
+
+export { Hangman as default }

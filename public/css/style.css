@@ -19,6 +19,10 @@ body {
 	min-height: 100vh;
 }
 
+h1 {
+	margin-bottom: 40px;
+}
+
 span {
 	border-bottom: 1px solid #534f59;
 	display: inline-block;
