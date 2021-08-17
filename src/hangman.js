@@ -27,7 +27,7 @@ class Hangman {
 		}
 
 		if (isUnique) {
-			this.guessedLetters.push(guess)
+			this.guessedLetters = [...this.guessedLetters, guess] // spread operator
 		}
 
 		if (isUnique && isWrongGuess) {

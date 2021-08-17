@@ -31,7 +31,7 @@ const startGame = async () => {
 }
 
 window.addEventListener('keypress', (e) => {
-	guess = String.fromCharCode(e.charCode)
+	const guess = String.fromCharCode(e.charCode)
 	game1.makeGuess(guess)
 	render()
 })
